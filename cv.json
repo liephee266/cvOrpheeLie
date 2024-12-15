@@ -1,19 +1,19 @@
 {
   "basics": {
-    "name": "John Doe",
-    "label": "Junior Full Stack Developer",
+    "name": "Orphée Lié LOUMANISSA",    
+    "label": "Développeur Web Orienté Backend",
     "image": "/me_avatar.jpg",
-    "email": "john.doe@example.com",
-    "phone": "+1 555-555-5555",
+    "email": "orphee-loum@webtinix.com",
+    "phone": "+242 06 714 45 60",
     "url": "https://johndoe.dev",
-    "summary": "Junior Full Stack Developer with a passion for building web applications. Currently seeking opportunities to further develop my skills in a professional setting.",
-    "theme": "default",
+    "summary": "Développeur Backend spécialisé dans le développement d'API robustes et sécurisées, ainsi que dans l'optimisation des performances des systèmes. Compétent dans l'utilisation de frameworks modernes pour des solutions évolutives et maintenables.",
+        "theme": "blue",
     "location": {
-      "address": "",
-      "postalCode": "10001",
-      "city": "Auckland",
-      "countryCode": "NZ",
-      "region": "New Zealand"
+      "address": "Ouenze",
+      "postalCode": null,
+      "city": "Brazzaville",
+      "countryCode": "CG",
+      "region": "Congo"
     },
     "profiles": [
       {
@@ -35,72 +35,157 @@
   },
   "work": [
     {
-      "name": "Tech Startup",
-      "position": "Junior Web Developer",
-      "location_type": "On site",
-      "location": "Auckland, New Zealand",
-      "url": "https://techstartup.com",
-      "startDate": "2024-01-01",
-      "endDate": null,
-      "summary": "Developing and maintaining web applications using JavaScript, HTML, and CSS. Collaborating with the team to implement new features and fix bugs.",
+      "name": "KHAZAD",
+      "position": "Développeur Web Junior",
+      "location_type": "Sur site",
+      "location": "Brazzaville, Congo",
+      "url": "https://khazad.fr",
+      "startDate": "2021-12-03",
+      "endDate": "2022-03-01",
+      "summary": "Maintenance, Développement et intégration de nouvelles fonctionnalités de l'application Web KHAZAD, notamment un système CRM et des intégrations d'API pour réseaux sociaux, afin d'améliorer l'interaction utilisateur et d'automatiser la publication de contenus, à l'aide des technologies comme HTML, CSS JavaScript et PHP.",
       "highlights": [
-        "Improved website performance by optimizing code"
+        "Conception et mise en œuvre d'un système complet de gestion de la relation client (CRM).",
+        "Intégration d'API de réseaux sociaux (Twitter, LinkedIn) pour la publication automatisée de contenus."
       ],
       "responsibilities": [
-        "Collaborated with senior developers to design and implement web applications using modern JavaScript frameworks.",
-        "Assisted in debugging and optimizing front-end code to ensure smooth user experiences.",
-        "Participated in code reviews and contributed to improving coding standards within the team."
+        "Collaborer avec des développeurs seniors pour concevoir et mettre en œuvre des applications web en utilisant des technologies comme HTML, CSS et JavaScript.",
+        " A participé au débogage et à l'optimisation du code frontal pour garantir une expérience utilisateur fluide..",
+        "Participation aux revues de code et contribution à l'amélioration des normes de codage au sein de l'équipe.."
       ],
       "achievements": [
-        "Developing and maintaining web applications using JavaScript, HTML, and CSS. Collaborating with the team to implement new features and fix bugs."
+        "Développer et maintenir des applications web en utilisant JavaScript, HTML et CSS. Collaborer avec l'équipe pour mettre en œuvre de nouvelles fonctionnalités et corriger les bogues."
       ],
       "skills": [
-        "React",
-        "Tailwind",
-        "GitHub"
+        "JavaScript",
+        "Bootstrap",
+        "Rest API",
+        "PHP",
+        "MySQL",
+        "OAuth 2.0"
       ]
     },
     {
-      "name": "Innovative Solutions",
-      "position": "Junior Software Developer",
-      "location_type": "Hybrid",
-      "location": "Wellington, New Zealand",
-      "url": "https://innovativesolutions.com",
-      "startDate": "2022-06-01",
-      "endDate": "2023-06-01",
-      "summary": "Assisting in the development and maintenance of software applications using Python and Django. Collaborating with cross-functional teams to ensure quality and timely delivery of software solutions.",
+      "name": "Devis assurance decennale",
+      "position": "Développeur Web stagiaire backend/frontend",
+      "location_type": "Sur site",
+      "location": "Brazzaville, Congo",
+      "url": "https://devisassurancedecennale.fr",
+      "startDate": "2022-04-07",
+      "endDate": "2022-05-05",
+      "summary": "Développement d'une application Web et intégration d'une API REST (Pappers) pour la recherche de société ouverte en france pour la Demande de devis d’assurance décennale, avec un design responsive et une interface utilisateur intuitif. A l'aide des technologies comme HTML, CSS, JavaScript(JQuery) et PHP.",
       "highlights": [
-        "Contributed to a major project that streamlined internal workflows, improving efficiency by 30%"
+        "Contribution à un projet majeur qui a permis d'en apprendre un peu plus sur les API REST aussi d'approfondir les connaissances en JavaScript et PHP."
       ],
       "responsibilities": [
-        "Developed and maintained backend services using Python and Django.",
-        "Worked closely with front-end developers to integrate user-facing elements with server-side logic.",
-        "Participated in daily stand-ups and bi-weekly sprint planning meetings to ensure alignment with project goals."
+        "Développement et maintenance de l'application Web en utilisant HTML, CSS et JavaScript (JQuery) pour une interface utilisateur intuitive et responsive et PHP.",
+        "Intégration d'une API REST (Pappers) pour la recherche de société ouverte en France pour la Demande de devis d’assurance décennale."
       ],
       "achievements": [
-        "Successfully implemented a feature that enhanced user authentication, improving security measures."
+        "Développement Réussi d'une application Web et integration d'une API REST."
       ],
       "skills": [
-        "Python",
-        "Django",
-        "SQL",
-        "Git"
+        "JQuery",
+        "Rest API",
+        "PHP"
       ]
     },
     {
-      "name": "Web Agency",
-      "position": "Intern Web Developer",
-      "location_type": "Remote",
-      "location": "Sydney, Australia",
-      "startDate": "2022-06-01",
-      "endDate": "2022-12-01",
-      "summary": "Assisted in developing client websites and applications. Gained hands-on experience with front-end and back-end technologies.",
+      "name": "ASSU-RISK",
+      "position": "Développeur Web stagiaire",
+      "location_type": "Sur site",
+      "location": "Brazzaville, Congo",
+      "url": "https://crm.assu-risk.fr",
+      "startDate": "2022-05-15",
+      "endDate": "2022-07-01",
+      "summary": "Développement et maintenance d'une application Web pour la gestion de crm en ligne, avec un design responsive et une interface utilisateur intuitif. A l'aide des technologies comme JavaScript et PHP Laravel, Acquisition d'une expérience pratique des technologies front-end et back-end.",
       "highlights": [
-        "Completed several client projects successfully"
+        "Une contribution a un projet majeur qui a permis d'en apprendre un peu plus sur le framework Laravel(aussi d'avoir ma première expérience proffessionnelle avec Laravel) ainsi d'approfondir les connaissances en JavaScript."
+      ],
+      "achievements": [
+        "Le Développement et la Maintenance de cette application a fait prendre une autre tournure à ma carière et j'ai appris beaucoup de choses sur le framework Laravel ainsi sur ainsi j'ai décidé de m'orienter vers le Backend plus précisement dans l'intégration et la conception des API REST, GraphQL, etc."
       ],
       "skills": [
-        "HTML",
-        "CSS"
+        "Laravel",
+        "GitHub",
+        "GIT"
+      ]
+    },
+    {
+      "name": "Les Bons Gamins",
+      "position": "Développeur Web backend",
+      "location_type": "Sur site",
+      "location": "Brazzaville, Congo",
+      "url": "https://lesbonsgamins.fr",
+      "startDate": "2022-07-10",
+      "endDate": "2022-10-07",
+      "summary": "Conception d'un module Prestashop pour l'envoie d'email transactionnel. A l'aide des Dialog Insight tout en  synchronisant les données relationnelles pour l'automatisation des emails marketing.",
+      "highlights": [
+        "Une contribution a un projet majeur qui a permis d'appredre ce que c'est un CMS en l'occurence Prestashop et d'avoir ma première experiencia proffessionnelle avec Prestashop ainsi d'approfondir les connaissances en PHP."
+      ],
+      "achievements": [
+        "Ca été l'occasion de mettre en pratique mes connaissances en PHP et de travailler encore une fois sur un projet majeur."
+      ],
+      "skills": [
+        "PHP",
+        "Prestashop"
+      ]
+    },
+    {
+      "name": "Application Webard SMEO",
+      "position": "Développeur Web Sénior (backend)",
+      "location_type": "Sur site",
+      "location": "Brazzaville, Congo",
+      "url": "https://app1.webard.fr/login?callbackUrl=https%3A%2F%2Fapp1.webard.fr%2F",
+      "startDate": "2022-10-20",
+      "endDate": "2023-09-12",
+      "summary": "Conception d'une API Symfony servant de Backend à un frontend NEXTJS dans le cadre de l'application Webard SMEO qui est un Système de Management d'Excellence Opérationnelle.",
+      "highlights": [
+        "Une contribution a un projet majeur qui a permis d'appredre Symfony et d'avoir ma première experience proffessionnelle avec Symfony ainsi d'approfondir les connaissances en PHP et sur les API REST."
+      ],
+      "achievements": [
+        "Ca été l'occasion de mettre en pratique mes connaissances en Symfony Et tellement l'experience avec Symfony était plaisant j'ai décidé d'en faire une expertise metier."
+      ],
+      "skills": [
+        "Rest API",
+        "Symfony",
+        "PHP",
+        "NEXTJS",
+        "MySQL",
+        "Docker"
+      ]
+    },{
+      "name": "Les Bretelles De Léon",
+      "position": "Développeur Web backend",
+      "location_type": "Sur site",
+      "location": "Brazzaville, Congo",
+      "url": "https://lesbretellesdeleon.fr",
+      "startDate": "2023-10-01",
+      "endDate": "2024-03-15",
+      "summary": "Intégration du module Prestashop(précedentement mis en place dans le projet Les Bons Gamins) pour l'envoie d'email transactionnel. A l'aide des Dialog Insight tout en  synchronisant les données relationnelles pour l'automatisation des emails marketing.",
+      "highlights": [
+        "Une autre contribution a un projet majeur qui a permis d'en apprendre un peu plus sur les API REST aussi d'approfondir les connaissances en Prestashop."
+      ],
+      "skills": [
+        "PHP",
+        "Prestashop"
+      ]
+    },
+    {
+      "name": "ASSU-RISK",
+      "position": "Développeur Web Sénior (backend)",
+      "location_type": "Sur site",
+      "location": "Brazzaville, Congo",
+      "url": "https://crm.assu-risk.fr",
+      "startDate": "2024-06-15",
+      "endDate": "",
+      "summary": "Développement et maintenance d'une application Web pour la gestion de crm en ligne, Intégration de l'API Ringover qui est une solution de téléphonie IP avec serveur WebSocket pour la reception des appels et la reception des message SMS de manière instantané sur l'application.",
+      "highlights": [
+        "Une contribution a un projet majeur qui a permis d'en apprendre un peu plus sur le framework Laravel aussi d'approfondir les connaissances sur les serveurs WebSocket ."
+      ],
+      "skills": [
+        "Laravel",
+        "WebSocket",
+        "PHP"
       ]
     }
   ],
@@ -168,11 +253,39 @@
   ],
   "skills": [
     {
-      "name": "Figma",
-      "level": "Expert",
+      "name": "Symfony",
+      "level": "expert",
       "keywords": [
-        "Design",
-        "UI"
+        "Web Development",
+        "Frontend",
+        "Backend",
+        "Fullstack"
+      ]
+    },
+    {
+      "name": "Laravel",
+      "level": "Intermediate",
+      "keywords": [
+        "Web Development",
+        "Frontend",
+        "Backend",
+        "Fullstack"
+      ]
+    },
+    {
+      "name": "Golang",
+      "level": "Intermediate",
+      "keywords": [
+        "Web Development & CLI Tools",
+        "Backend"
+      ]
+    },
+    {
+      "name": "Docker",
+      "level": "Intermediate",
+      "keywords": [
+        "DevOps",
+        "Containers"
       ]
     },
     {
@@ -182,6 +295,24 @@
         "Version Control",
         "Collaboration",
         "Source Code"
+      ]
+    },
+    {
+      "name": "Websocket",
+      "level": "Intermediate",
+      "keywords": [
+        "Server",
+        "Web Development",
+        "Backend"
+      ]
+    },
+    {
+      "name": "Rest",
+      "level": "expert",
+      "keywords": [
+        "Server",
+        "Web Development",
+        "Backend"
       ]
     },
     {
@@ -294,12 +425,8 @@
   ],
   "languages": [
     {
-      "language": "English",
-      "fluency": "Native speaker"
-    },
-    {
-      "language": "Spanish",
-      "fluency": "Intermediate"
+      "language": "Français",
+      "fluency": "Courant(Ecrit/Parlant)"
     }
   ],
   "interests": [
@@ -319,46 +446,45 @@
   ],
   "projects": [
     {
-      "name": "Personal Portfolio",
-      "isActive": false,
-      "description": "A personal portfolio website to showcase my projects and skills.",
+      "name": "Portfolio Pesonnel",
+      "isActive": true,
+      "description": "Un site web de portfolio personnel pour présenter mes projets et mes compétences.",
       "highlights": [
-        "Built with React and Tailwind CSS",
-        "Includes a blog and contact form"
+        "Construit avec Astro et Tailwind CSS"
       ],
       "url": "https://johndoe.dev",
-      "github": "https://github.com"
+      "github": "https://github.com/liephee266/cvOrpheeLie"
     },
     {
-      "name": "Weather App",
+      "name": "yt-playlist-download ",
       "isActive": true,
       "description": "A web application that provides weather information for any location.",
       "highlights": [
-        "Built with JavaScript and OpenWeatherMap API",
-        "Responsive design"
+        "Construit avec Golang et la librairie yt-dlp",
+        "Construit à l'aide de Docker"
       ],
-      "url": "https://weatherapp.com"
+      "github": "https://github.com/liephee266/yt-playlist-download"
     },
     {
-      "name": "Task Manager",
+      "name": "classeur-files-download",
       "isActive": true,
-      "description": "A simple task management app to keep track of daily tasks.",
+      "description": "Une CLI en Golang qui permet de classer les fichiers dans des dossiers selon leur extension et leurs types.",
       "highlights": [
-        "Built with Node.js and MongoDB",
-        "User authentication and CRUD operations"
+        "Construit avec Golang",
+        "Construit à l'aide de Docker"
       ],
-      "url": "https://taskmanager.com",
-      "github": "https://github.com"
+      "github": "https://github.com/liephee266/classeur-files-download"
     },
     {
-      "name": "E-commerce Site",
-      "isActive": false,
-      "description": "An online store built with Next.js and Stripe for payment processing.",
+      "name": "file-convert-golang ",
+      "isActive": true,
+      "description": "Une API Golang/Gin qui permet de conversion de fichiers office en pdf avec de concurence pour une meilleure performance.",
       "highlights": [
-        "Product management and shopping cart functionality",
-        "Secure payment integration"
+        "Construit avec Golang et le framework Gin",
+        "API RESTful avec une base de données SQLite et une authentification JWT",
+        "Construit à l'aide de Docker"
       ],
-      "url": "https://ecommerce.com"
+      "github": "https://github.com/liephee266/file-convert-golang"
     }
   ]
 }

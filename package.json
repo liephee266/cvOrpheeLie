@@ -21,6 +21,7 @@
   },
   "devDependencies": {
     "prettier": "^3.3.2",
-    "prettier-plugin-astro": "^0.14.0"
+    "prettier-plugin-astro": "^0.14.0",
+    "vite-plugin-svgr": "^4.3.0"
   }
 }

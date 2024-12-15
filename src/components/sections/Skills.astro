@@ -1,10 +1,11 @@
 ---
+// Imports des fichiers SVG et .astro
 import Section from "../Section.astro";
 import HTML from "@/icons/html.astro";
 import CSS from "@/icons/css.astro";
 import JavaScript from "@/icons/javascript.astro";
 import TypeScript from "@/icons/type.astro";
-import React from "@/icons/react.astro";
+import ReactIcon from "@/icons/react.astro";
 import Node from "@/icons/node.astro";
 import MySQL from "@/icons/sql.astro";
 import Git from "@/icons/git.astro";
@@ -18,41 +19,66 @@ import Kotlin from "@/icons/kotlin.astro";
 import Flutter from "@/icons/flutter.astro";
 import Figma from "@/icons/Figma.astro";
 import Gitlab from "@/icons/Gitlab.astro";
+import Docker from "@/icons/Docker.astro";
+import Golang from "@/icons/Golang.astro";
+import Symfony from "@/icons/Symfony.astro";
+import Laravel from "@/icons/Laravel.astro";
+import Websocket from "@/icons/Websocket.astro";
+import Rest from "@/icons/Rest.astro";
+import Php from "@/icons/Php.astro";
+import OAuth from "@/icons/OAuth.astro";
+import Prestashop from "@/icons/Prestashop.astro";
+import JQuery from "@/icons/JQuery.astro";
+import Bootstrap from "@/icons/Bootstrap.astro";
 
+
+// Mapping des icônes
 const SKILLS_ICONS: Record<string, any> = {
-	HTML,
-	CSS,
-	JavaScript,
-	TypeScript,
-	React,
-	Node,
-	MySQL,
-	Git,
-	GitHub,
-	Next,
-	Tailwind,
-	Swift,
-	SwiftUI,
-	Kotlin,
-	Flutter,
-	Figma,
-	Gitlab,
+  HTML, // Fichier Astro
+  CSS, // Fichier Astro
+  JavaScript, // Fichier Astro
+  TypeScript, // Fichier Astro
+  React: ReactIcon, // Fichier Astro
+  Node, // Fichier Astro
+  MySQL, // Fichier Astro
+  Git, // Fichier Astro
+  GitHub, // Fichier Astro
+  Next, // Fichier Astro
+  Tailwind, // Fichier Astro
+  Swift, // Fichier Astro
+  SwiftUI, // Fichier Astro
+  Kotlin, // Fichier Astro
+  Flutter, // Fichier Astro
+  Figma, // Fichier Astro
+  Gitlab, // Fichier Astro
+  Docker, // Fichier SVG
+  Golang, // Fichier SVG
+  Symfony,
+  Laravel,
+  Websocket,
+  Rest,
+  Php :"PHP",
+  OAuth,
+  Prestashop,
+  JQuery,
+  Bootstrap,
 };
 ---
 
 <Section className={Astro.props.className} title="Skills">
-	<ul class="[&>li>svg]:text-skin-hue inline-flex flex-wrap gap-6 [&>li>svg]:size-5 [&>li]:text-sm">
-		{
-			skills.map(({ name }) => {
-				const iconName = name === "Next.js" ? "Next" : name;
-				const Icon = SKILLS_ICONS[iconName];
+  <ul class="[&>li>svg]:text-skin-hue inline-flex flex-wrap gap-6 [&>li>svg]:size-5 [&>li]:text-sm">
+    {
+      skills.map(({ name }) => {
+        // Ajuster le nom pour correspondre à la clé
+        const iconName = name === "Next.js" ? "Next" : name;
+        const Icon = SKILLS_ICONS[iconName];
 
-				return (
-					<li class="border-skin-hue/20s bg-skin-button-accent/20s borders border-solids flex items-center gap-1 rounded-md px-2 py-0.5 text-xs text-skin-muted print:border-none print:bg-transparent print:p-0 print:text-zinc-800">
-						{Icon && <Icon />} <span>{name}</span>
-					</li>
-				);
-			})
-		}
-	</ul>
+        return (
+          <li class="border-skin-hue/20s bg-skin-button-accent/20s borders border-solids flex items-center gap-1 rounded-md px-2 py-0.5 text-xs text-skin-muted print:border-none print:bg-transparent print:p-0 print:text-zinc-800">
+            {Icon && <Icon />} <span>{name}</span>
+          </li>
+        );
+      })
+    }
+  </ul>
 </Section>
